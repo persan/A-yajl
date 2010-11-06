@@ -1,0 +1,6 @@
+all:
+
+generate:
+	./generate.py
+
+
