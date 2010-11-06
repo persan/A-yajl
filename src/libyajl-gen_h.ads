@@ -5,7 +5,7 @@ limited with libYajl.common_h;
 
 package libYajl.gen_h is
 
-   type yajl_gen_status is 
+   type yajl_gen_status is
      (yajl_gen_status_ok,
       yajl_gen_keys_must_be_strings,
       yajl_max_depth_exceeded,

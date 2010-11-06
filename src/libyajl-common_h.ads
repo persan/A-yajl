@@ -3,7 +3,6 @@ with System;
 
 package libYajl.common_h is
 
-
    YAJL_MAX_DEPTH : constant := 128;  --  yajl/yajl_common.h:40
    --  unsupported macro: YAJL_API __attribute__ ((visibility("default")))
 

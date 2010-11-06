@@ -5,7 +5,7 @@ limited with libYajl.common_h;
 
 package libYajl.parse_h is
 
-   type yajl_status is 
+   type yajl_status is
      (yajl_status_ok,
       yajl_status_client_canceled,
       yajl_status_insufficient_data,
