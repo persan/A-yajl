@@ -11,8 +11,7 @@ renames=[
 ["yajl_yajl_common_h","libYajl.common_h"],
 ["yajl_yajl_gen_h","libYajl.gen_h"],
 ["yajl_yajl_parse_h","libYajl.parse_h"],
-["yajl_yajl_version_h","libYajl.version_h"],
-["/opt/GNAT/6.5.0w-20101015/bin/../lib/gcc/../../include/",""]]
+["yajl_yajl_version_h","libYajl.version_h"]]
 
 def gen(src):
     f=file("gen.c","w")
