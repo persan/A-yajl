@@ -1,0 +1,22 @@
+with "../yajl.gpr";
+with "aunit.gpr";
+
+project Yajl.tests is
+
+   for Main use ("yajl-tests-test_harnesses-test_all.adb");
+
+   for Source_Dirs use (".", "testcases");
+   for Object_Dir use ".obj";
+   for Exec_Dir use ".";
+
+   package Builder is
+      for Default_Switches ("ada") use ("-j4", "-k", "-C");
+   end Builder;
+
+   package Compiler is
+      for Default_Switches ("ada") use
+        ("-gnatwa", "-g", "-gnat05", "-gnatf", "-O2", "-gnatQ");
+   end Compiler;
+
+end Yajl.tests;
+
